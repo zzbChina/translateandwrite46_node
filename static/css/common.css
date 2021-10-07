@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'icomoon';
+    /* user-select: none; */
+    color: white;
+    /* box-sizing: border-box; */
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+button,input{
+    border: 0;
+}
+body{
+    /* background: black url('https://desktop.github.com/images/star-bg.svg')no-repeat; */
+    background: black no-repeat;
+    /* background-image: url('../../src/assets/star-bg.svg'); */
+    background-size: cover;
+    /* background-size:cover; */
+    min-height: 600px;
+    min-width: 1400px;
+    overflow: hidden;
+}
+@media screen and (max-width:1450px) {
+    body{
+        overflow: scroll;
+    }
+}
