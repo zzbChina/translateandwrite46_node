@@ -7,3 +7,4 @@ interface：接口文件
 static：前端静态文件
 app.js：主文件
 tw：是数据库的表文件
+数据库账号root，密码root，端口3306
